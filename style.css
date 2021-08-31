@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./poker-table.jpeg");
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.button {
+    position: absolute;
+    top: 15%;
+    right: 30%;
+}
+.small-blind {
+    position: absolute;
+    top: 25%;
+    right: 12%;
+}
+.big-blind {
+    position: absolute;
+    bottom: 25%;
+    right: 12%;
+}
+.UTG {
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+}
+.UTG-1 {
+    position: absolute;
+    bottom: 15%;
+    right: 48%;
+}
+.UTG-2 {
+    position: absolute;
+    bottom: 15%;
+    left: 30%;
+}
+.lowjack {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+}
+.hijack {
+    position: absolute;
+    top: 25%;
+    left: 12%;
+}
+.cutoff {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
